@@ -77,7 +77,6 @@ const Input = styled.input`
 
 function TodoCreate(){
     const [open, setOpen] = useState(false);
-
     const onToggle = () => setOpen(!open);
 
     return(
@@ -86,7 +85,6 @@ function TodoCreate(){
                 <InsertFormPositioner>
                     <InsertForm>
                         <Input autoFocus placeholder="할 일 입력 후, Enter를 누르세요" />
-
                     </InsertForm>
                 </InsertFormPositioner>
             )}
